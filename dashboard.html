@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Lista</title>
+
+    </script>
+  </head>
+  <body style="background: aqua">
+    <h1 style="text-align: center; color: orange">Lista de Productos</h1><hr>
+    <br>
+<section  class="seccion">
+  <div class="container">
+   <div class="row">
+
+    <div class="col-lg-1	col-xl-1" style="background-color:aqua"></div>
+    <div class="col-lg-11	col-xl-11" style="background-color: #5DADE2">
+      <div class="col-lg-11	col-xl-11" style="background-color: #5DADE2">
+        <input style="margin-left:650px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" value="Nuevo" >
+      </div>
+      <div class="wrapper">
+        <button type="button" class="btn btn-dark" data-toggle="modal"><a href="todos.html">Ver Todos</button></a>
+      </div>
+            <table class="table">
+              <caption></caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Edad</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Diego</td>
+                  <td>Cueto</td>
+                  <td>23<br>
+                    <input type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" name="" value="Editar"> <input type="reset" name="" value="Eliminar" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3"></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Tomas</td>
+                  <td>Lopez</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5"<name="" value="Eliminar"></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Lucio</td>
+                  <td>Escobar</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7" name="" value="Eliminar"></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Fidel</td>
+                  <td>Rodriguez</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9" name="" value="Eliminar"></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Lorena</td>
+                  <td>Zarate</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-toggle="modal"  data-target="#exampleModal10" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11" name="" value="Eliminar"></td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Roxana</td>
+                  <td>Salazar</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-target="#exampleModal12" data-toggle="modal" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal13" name="" value="Eliminar"></td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Guadalupe</td>
+                  <td>Medina</td>
+                  <td>22<br>
+                    <input type="button"  class="btn btn-primary" data-target="#exampleModal14" data-toggle="modal" name="" value="Editar"> <input type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal15" name="" value="Eliminar"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+   </div>
+</section>
+<!--MODALES-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Nuevo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Agregar Nuevo?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Ver</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Ver Todos?
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p>Nombre:</p>
+      <input type="text" name="" value="">
+      <p>Apellido:</p>
+      <input type="text" name="" value="">
+      <p>Edad:</p>
+      <input type="text" name="" value="">
+      <p>Sexo:</p>
+      <input type="text" name="" value="">
+      <p>Email:</p>
+      <input type="text" name="" value="">
+      <p>Telefono:</p>
+      <input type="text" name="" value="">
+      <p>Direccion:</p>
+      <input type="text" name="" value="">
+      <p>Colonia:</p>
+      <input type="text" name="" value="">
+      <p>Municipio:</p>
+      <input type="text" name="" value="">
+      <p>Estado:</p>
+      <input type="text" name="" value="">
+      <p>Pais:</p>
+      <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Si</button>
+        <button type="button" class="btn btn-primary" >No</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Si</button>
+        <button type="button" class="btn btn-primary">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">SI</button>
+        <button type="button" class="btn btn-primary">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Si</button>
+        <button type="button" class="btn btn-primary">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Ediatr</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Editar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Nombre:</p>
+        <input type="text" name="" value="">
+        <p>Apellido:</p>
+        <input type="text" name="" value="">
+        <p>Edad:</p>
+        <input type="text" name="" value="">
+        <p>Sexo:</p>
+        <input type="text" name="" value="">
+        <p>Email:</p>
+        <input type="text" name="" value="">
+        <p>Telefono:</p>
+        <input type="text" name="" value="">
+        <p>Direccion:</p>
+        <input type="text" name="" value="">
+        <p>Colonia:</p>
+        <input type="text" name="" value="">
+        <p>Municipio:</p>
+        <input type="text" name="" value="">
+        <p>Estado:</p>
+        <input type="text" name="" value="">
+        <p>Pais:</p>
+        <input type="text" name="" value="">
+         <div id='foo'></div>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Eliminar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ¿Estas seguro de eliminar?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
